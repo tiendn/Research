@@ -508,7 +508,8 @@ Other Style Guides
   - [5.3](#destructuring--object-over-array) Use object destructuring for multiple return values, not array destructuring. jscs: [`disallowArrayDestructuringReturn`](http://jscs.info/rule/disallowArrayDestructuringReturn)
 
     > Why? You can add new properties over time or change the order of things without breaking call sites.
-
+    Don't understand ???????????
+  
     ```javascript
     // bad
     function processInput(input) {
