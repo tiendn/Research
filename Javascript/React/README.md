@@ -1,4 +1,10 @@
 # React Research
+
+**PureComponent and Component**
+
+When state changed although data changed or not, component will re-render.
+But PureComponent not re-render if data still not changed.
+
 **Presentational and Container Components**
 
 [Link source](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
