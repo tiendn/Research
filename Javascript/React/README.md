@@ -1,5 +1,11 @@
 # React Research
 
+**React Lifecycle**
+
+`Life Cycle`
+
+<img src="./image/React-lifecycle.png" width="400" >
+
 **PureComponent and Component**
 
 When state changed although data changed or not, component will re-render.
