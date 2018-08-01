@@ -57,4 +57,6 @@ Note that by default, React Native logs are disabled on iOS in release builds, s
 
     The error messageg here: 
     
-        [CodePush] 400: An update check must include a valid deployment key. Please check that your app has been configured correctly. To view available deployment keys, run 'code-push deployment ls <appName> -k'
+        [CodePush] 400: An update check must include a valid deployment key. 
+        Please check that your app has been configured correctly. 
+        To view available deployment keys, run 'code-push deployment ls <appName> -k'
