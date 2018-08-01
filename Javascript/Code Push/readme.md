@@ -48,8 +48,13 @@ Note that by default, React Native logs are disabled on iOS in release builds, s
 1. What different between Staging and Production ?
 
     It just another version build. If your app build with `STAGGING` key, any `STAGGING` will be sync with your app, but not `PRODUCTION` and vice versa.
+
+    `STAGGING` means your **Release** app should be tested in **Internal Testing**, or for the purpose of testing a small number of users.
+
+    Then, you feel this build is `Stable`, change this status to `PRODUCTION`
+
 2. If don't provide `CodePushDevelopmentKey`, what problem?
 
     The error messageg here: 
     
-        [CodePush] 400: An update check must include a valid deployment key - please check that your app has been configured correctly. To view available deployment keys, run 'code-push deployment ls <appName> -k'
+        [CodePush] 400: An update check must include a valid deployment key. Please check that your app has been configured correctly. To view available deployment keys, run 'code-push deployment ls <appName> -k'
